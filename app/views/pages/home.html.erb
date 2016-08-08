@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <body style="background-color:lightblue;">
+        <title>Udemy ROR</title>
+        <h1 align="center">Welcome to my Webpage</h1>
+        
+            <p>
+         <!--
+                <img src="images/allfive.JPG" alt="Five Strings" height="200" width="100%" align="center">
+        -->
+        <%= image_tag 'allfive.JPG', :height => "200", :width => "100%", :alt => "All Five" %>
+            </p>
+            
+            <p>
+                <em>Udemy</em>
+                
+                <a href="http://www.Udemy.com"> Read this now</a>
+            </p>
+            <table border="1" style="width:100%">
+                <tr>
+                    <td>Experience</td>
+                    <td>Skills</td>
+                    <td>Education</td>                
+                </tr> 
+                <tr>
+                    <td width="33%">Math/Computer Science Teacher<br>
+                        Software Developer<br>
+                        Database Admin/Developer<br>
+                    </td>
+                    <td width="33%">Java<br>
+                        Ruby On Rails<br>
+                        SQL<br>
+                    </td>
+                    <td width="33%">
+                        BS Math
+                    </td>                
+                </tr> 
+            
+            </table>
+          <footer>
+              <p>Posted by: J Rusk</p>
+              <p>Contact information: <a href="mailto:jrusk@example.com">
+              someone@example.com</a>.</p>
+              <%=link_to "About", about_path %>
+        </footer>    
+    </body>
+</html>

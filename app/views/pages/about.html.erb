@@ -1,0 +1,47 @@
+
+<html>
+    <body style="background-color:lightblue;">
+        <title>Udelcome emy ROR</title>
+        <h1 align="center">About my Webpage</h1>
+        
+            <p>
+         
+                <%= image_tag 'allfive.JPG', :height => "200", :width => "100%", :alt => "All Five" %>
+
+            </p>
+            
+            <p>
+                <em>Udemy</em>
+                
+                <a href="http://www.Udemy.com"> Read this now
+                </a>
+            </p>
+            <table border="1" style="width:100%">
+                <tr>
+                    <td>Column One</td>
+                    <td>Column Two</td>
+                    <td>Column Three</td>                
+                </tr> 
+                <tr>
+                    <td width="33%">Line One<br>
+                        Line Two<br>
+                        Line Three<br>
+                    </td>
+                    <td width="33%">Line One<br>
+                        Line Two<br>
+                        Line Three<br>
+                    </td>
+                    <td width="33%">
+                        Line 1
+                    </td>                
+                </tr> 
+            
+            </table>
+          <footer>
+              <p>Posted by: J Rusk</p>
+              <p>Contact information: <a href="mailto:jrusk@example.com">
+              someone@example.com</a>.</p>
+              <%=link_to "Home", root_path %>
+        </footer>    
+    </body>
+</html>
